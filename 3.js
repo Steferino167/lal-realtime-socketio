@@ -1,7 +1,7 @@
 // Guarda generators
 
 function printHelp() {
-    console.log("2.js");
+    console.log("3.js");
     console.log("usage:");
     console.log("--help             print this help");
     console.log("--file={NAME}      read file of {name} and output it");
@@ -15,7 +15,7 @@ if(args.help || !args.file) {
     process.exit();
 }
 
-var hello = require("./helloworld.js");
+var hello = require("./helloworld3.js");
 hello.say(args.file)
 .val(function(contents) {
         console.log(contents.toString());

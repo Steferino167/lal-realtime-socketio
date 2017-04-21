@@ -1,3 +1,3 @@
 # lal-realtime-socketio
 
-node .\say-file-contents.js --file=helloworld.js
+**How to run**: node .\say-file-contents.js --file=helloworld.js
